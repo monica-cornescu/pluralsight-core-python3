@@ -64,8 +64,11 @@ weird_statement = "see Maria I dances do beautifully".split()
 weird_statement.sort(key=len)
 print("13. This statement is not weird anymore:   ", ' '.join(weird_statement))
 
-
-
+# sorted() gives a new list, while reversed() can be used to create a new list
+myli = [-17, 20, 14, 72, -15, 115]
+so_myli = sorted(myli)
+new_rev_myli = list(reversed(myli))
+print(f"14. New lists are: so_li = {so_myli} and new_rev_li = {new_rev_myli} ", )
 
 
 if __name__ == '__main__':
