@@ -18,7 +18,7 @@ departure, separator, arrival = "London:Edinburgh".partition(":")
 origin, _, destination = "Amsterdam-Paris".partition("-")   # _ is  for unused or dummy values; we don't want to capture the separator
 
 stringformatting_1 = "My {0}'s birthday is {1}. {0} was born in {2}".format("mom", "21st of May", 1945)
-stringformatting_2 = "My hight and weight are {} m and {} kg".format(1.81, 64)
+stringformatting_2 = "My height and weight are {} m and {} kg".format(1.81, 64)
 position = "Current position is {latitude} {longitude}".format(latitude="60N", longitude="5E")
 galactic_position = "Galactic position is x={pos[0]},  y={pos[1]}, z={pos[2]}".format(pos=[65.2, 25.1, 82.2])
 math_constants = "Math constants are pi={m.pi} and e={m.e}".format(m=math)
